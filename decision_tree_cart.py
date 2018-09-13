@@ -7,6 +7,8 @@ author: Skywalker(@alojoecee)
 
 import numpy as np
 
+
+data_header = ["outlook", "temperature", "humidity", "windy"]
 data = np.array([["sunny", "hot", "high", "false", "no"],
                  ["sunny", "hot", "high", "true", "no"],
                  ["overcast", "hot", "high", "false", "yes"],
