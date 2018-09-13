@@ -2,7 +2,7 @@
 """
 Created on Thu Sep 13 16:48:05 2018
 
-author: Shywalker(@alojoecee)
+author: Skywalker(@alojoecee)
 """
 
 import numpy as np
@@ -52,9 +52,7 @@ column = data.shape[0]
 for n in data:
     if "yes" in n:
         yes_count += 1
-print("Overall number of yes", yes_count)
 no_count = column-yes_count
-print("Overall number of no", no_count)
 
 all_entropy = -(yes_count/column * np.log2(yes_count/column))-(no_count/column * np.log2(no_count/column))   
 
